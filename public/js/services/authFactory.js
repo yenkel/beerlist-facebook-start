@@ -4,7 +4,7 @@ app.factory('authFactory', function($http) {
   auth.currentUser = {};
 
   auth.logout = function(user) {
-    return $http.get('/users/logout')
+    return $http.get('/auth/logout')
       .then(function(response) {
         auth.currentUser.username = null;
       });;
