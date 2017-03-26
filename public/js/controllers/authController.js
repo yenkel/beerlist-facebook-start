@@ -9,7 +9,7 @@ app.controller('AuthCtrl', function($scope, authFactory, $state) {
       });
   }
 
-  $scope.loggedin = authFactory.loggedin
+  $scope.currentUser = authFactory.currentUser
 
   $scope.login = function() {
     authFactory.login($scope.user)
