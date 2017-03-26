@@ -4,14 +4,11 @@ app.factory('authFactory', function($http) {
   auth.currentUser = {};
 
   auth.logout = function(user) {
-    return $http.get('/auth/logout')
-      .then(function(response) {
-        auth.currentUser.username = null;
-      });;
+    //todo
   };
 
   auth.login = function(user) {
-
+    //todo
   };
 
   return auth;
