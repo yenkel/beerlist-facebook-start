@@ -13,9 +13,11 @@
     "angular-ui-router": "^0.4.2",
     "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
     "express-jwt": "^5.1.0",
     "jsonwebtoken": "^7.3.0",
     "mongoose": "^4.8.6",
+    "passport": "^0.3.2",
     "passport-facebook": "^2.1.1"
-  }
+  } 
 }
