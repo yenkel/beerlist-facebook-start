@@ -1,4 +1,4 @@
-app.controller('AuthCtrl', function($scope, $state) {
+app.controller('AuthCtrl', function($scope) {
   $scope.logout = function() {
     //todo
   }
