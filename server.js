@@ -1,9 +1,8 @@
 //package and module requirements
 var express = require('express')
 var bodyParser = require('body-parser');
-var passport = require('passport');
 var mongoose = require('mongoose');
-var User = require('./models/UserModel');
+var passport = require('./models/passport');
 var beerRoutes = require('./routes/beerRoutes');
 var authRoutes = require('./routes/authRoutes');
 
