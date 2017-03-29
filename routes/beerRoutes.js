@@ -4,14 +4,8 @@ var Beer = require("../models/BeerModel");
 
 
 var ensureAuthenticated = function(req, res, next) {
-  // don't use this until everything works
-  // if (req.isAuthenticated()) {
-  //   return next();
-  // } else {
-  //   return res.status(401).send({ message: "Unauthorized" });
-  // }
-
-  //all middleware must have next()
+  //this function needs to work
+  //in the meantime we'll just call next
   next();
 }
 
